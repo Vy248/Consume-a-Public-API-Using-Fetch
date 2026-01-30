@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Task - Elevate Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-card">
+        <h2>Quote of the Day</h2>
+        <hr>
+        
+        <div id="display-area">
+            <p id="quote-text">Click the button to fetch inspiration.</p>
+            <span id="author-text"></span>
+        </div>
+
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+            <p>Loading API Data...</p>
+        </div>
+
+        <div class="controls">
+            <button id="fetch-btn">Fetch New Quote</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
